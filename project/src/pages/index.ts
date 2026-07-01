@@ -1,0 +1,11 @@
+export { HomePage } from './HomePage';
+export { ProgramsPage } from './ProgramsPage';
+export { TrainersPage } from './TrainersPage';
+export { MembershipPage } from './MembershipPage';
+export { BMIPage } from './BMIPage';
+export { NutritionPage } from './NutritionPage';
+export { GalleryPage } from './GalleryPage';
+export { TestimonialsPage } from './TestimonialsPage';
+export { ContactPage } from './ContactPage';
+export { BlogPage } from './BlogPage';
+export { ShopPage } from './ShopPage';

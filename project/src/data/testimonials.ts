@@ -1,0 +1,58 @@
+import type { Testimonial } from '../types';
+
+export const testimonials: Testimonial[] = [
+  {
+    id: '1',
+    name: 'Michael R.',
+    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=200',
+    role: 'Lost 45 lbs in 6 months',
+    rating: 5,
+    review: 'APEX Fitness completely transformed my life. The trainers are incredibly supportive, and the community makes every workout enjoyable. I went from barely being able to walk up stairs to running my first marathon!',
+    date: '2024-01-15',
+  },
+  {
+    id: '2',
+    name: 'Jennifer L.',
+    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200',
+    role: 'Gained 20 lbs muscle',
+    rating: 5,
+    review: 'As a woman, I was nervous about weightlifting, but the trainers here made me feel comfortable and strong. I\'ve never felt more confident in my body. The personal training sessions are worth every penny.',
+    date: '2024-02-20',
+  },
+  {
+    id: '3',
+    name: 'David K.',
+    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200',
+    role: 'IFBB Pro Competitor',
+    rating: 5,
+    review: 'The bodybuilding program here is top-notch. Coach David helped me prepare for my first competition, and I placed 2nd! The attention to detail in posing and nutrition coaching is exceptional.',
+    date: '2024-03-10',
+  },
+  {
+    id: '4',
+    name: 'Sarah M.',
+    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
+    role: 'Yoga enthusiast',
+    rating: 4,
+    review: 'The yoga and mindfulness classes have been a game-changer for my stress levels. Emma is an incredible instructor who really focuses on proper form and breathwork. The studio space is beautiful and peaceful.',
+    date: '2024-04-05',
+  },
+  {
+    id: '5',
+    name: 'Carlos T.',
+    image: 'https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=200',
+    role: 'CrossFit convert',
+    rating: 5,
+    review: 'I was addicted to traditional gyms until I found APEX CrossFit. The community here is like family. Sarah pushes me to limits I never knew I had. Every WOD is challenging but scalable to any fitness level.',
+    date: '2024-05-12',
+  },
+  {
+    id: '6',
+    name: 'Amanda W.',
+    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=200',
+    role: 'New mom, back in shape',
+    rating: 5,
+    review: 'After having my baby, I thought getting back in shape would be impossible. The post-natal program here is designed perfectly. The childcare service while I workout is a lifesaver. Lost all my pregnancy weight in 4 months!',
+    date: '2024-06-01',
+  },
+];
